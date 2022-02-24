@@ -1,0 +1,98 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    width: 90%;
+    height: 100%;
+    margin-top: 60px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+    margin-left: 80px;
+    /*margin ;*/
+    border-style: solid;
+    border-width: 4px;
+    border-top-color:blueviolet;
+    border-bottom-color:blueviolet;
+    border-left-color: green;
+    border-right-color: green;
+    padding: 20px;
+}
+
+h1{
+    background-color:darkred;
+    color: whitesmoke;
+    width: 300px;
+    height: 50px;
+    margin: 50px;
+    border: 3px solid black;
+    padding: 20px;
+}
+p{
+    display: inline;
+    background-color: rgb(92, 148, 150);
+}
+
+span{
+    display: block;
+    background-color: rgb(12, 226, 226);
+}
+
+.box1{
+    position: static;
+    background-color: greenyellow;
+    width:400px;
+    height:50px;
+}
+.box2{
+    position: relative;
+    background-color: royalblue;
+    width:400px;
+    height:50px;
+    bottom: 50px;
+    left: 450px;
+}
+.box3{
+    position: absolute;
+    background-color: rgb(243, 227, 4);
+    width:400px;
+    height:50px;
+    bottom: 100px;
+    left: 450px;
+}
+.box4{
+    position: fixed;
+    background-color: rgb(231, 46, 13);
+    width:400px;
+    height:50px;
+    top: 000px;
+    left: 0px;
+}
+.box5{
+    position: sticky;
+    background-color: rgb(224, 13, 231);
+    width:400px;
+    height:50px;
+    bottom: 200px;
+    left: 0px;
+}
+.layer1{
+    position: relative;
+    background-color:seagreen;
+    width: 80px;
+    height:70px;
+    bottom: 0px;
+    left:25px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.layer2{
+    position: relative;
+    background-color:burlywood;
+    width: 80px;
+    height:70px;
+    bottom: 20px;
+    left:50px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    z-index: 2
+}
